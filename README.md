@@ -24,21 +24,16 @@ active users. These are users who have exhibited a tendency to spend
 more time on their mobile apps and engage with ads a lot more than the
 median user. Thus, we are working with a selected sample of user
 
-**Variables** 1. *click* – Indicator for whether the impression is
-clicked. 1 implies that a click occured and zero implies that a click
-did not occur. 2. *timeofday* – Can take one of four values – 1 for late
-night (12 am to 6 am), 2 for morning (6 am to 12 pm), 3 for afternoon
-(12 pm to 6 pm), and 4 for early night (6 pm to 12 am). 3. *imptotal* –
-Total number of impressions shown to this user prior to this session. It
-captures how active the user has been on her mobile device. 4. *ctruser*
-– the average CTR the user has had prior to the session. 5.
-*varietytotal* – total number of distinct ads the user has seen prior to
-this session. 6. *adimptotal* – total number of impressions of EA’s ad
-shown to the user prior to this session. 7. *variety* – number of
-distinct ads shown earlier in the session. 8. *rep* – number of times
-the ad is replaced with the same ad earlier within this session.
-(Depicted as Repeat in the figure.) 9. *adimpsession* – number of times
-EA’s ad has been shown earlier in the session. (Depicted as AdImp in the
+**Variables** 
+1. *click* – Indicator for whether the impression is clicked. 1 implies that a click occured and zero implies that a click did not occur. 
+2. *timeofday* – Can take one of four values – 1 for late night (12 am to 6 am), 2 for morning (6 am to 12 pm), 3 for afternoon (12 pm to 6 pm), and 4 for early night (6 pm to 12 am). 
+3. *imptotal* – Total number of impressions shown to this user prior to this session. It captures how active the user has been on her mobile device. 
+4. *ctruser* – the average CTR the user has had prior to the session. 
+5. *varietytotal* – total number of distinct ads the user has seen prior to this session. 
+6. *adimptotal* – total number of impressions of EA’s ad shown to the user prior to this session. 
+7. *variety* – number of distinct ads shown earlier in the session. 
+8. *rep* – number of times the ad is replaced with the same ad earlier within this session. (Depicted as Repeat in the figure.) 
+9. *adimpsession* – number of times EA’s ad has been shown earlier in the session. (Depicted as AdImp in the
 figure.)
 
 Figure 1 illustrates the concepts of *variety*, *replacement*, and
