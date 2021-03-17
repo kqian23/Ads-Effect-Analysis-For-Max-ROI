@@ -220,9 +220,11 @@ variety_test$CART.pred <- pred.CART
 col.xgb = c(2:9)
 ```
 
-**Hyperparameter Tuning** - nrounds: controls the maximum number of
-iterations. For classification, it is similar to the number of trees to
-grow.
+**Hyperparameter Tuning** 
+
+  - nrounds: controls the maximum number of
+    iterations. For classification, it is similar to the number of trees to
+    grow.
 
   - eta: It controls the learning rate, i.e., the rate at which our
     model learns patterns in data. After every round, it shrinks the
